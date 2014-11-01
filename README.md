@@ -5,7 +5,7 @@ You shold install the nodejs environment and use the npm to be the package manag
 then, You can install the sft an the command line, like this:
 
 ```
-npm install -g sfe
+npm install -g sft
 ```
 
 ## What can i do？
