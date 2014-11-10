@@ -1,0 +1,15 @@
+/*
+	This is a css file.
+*/
+p{ 
+	margin: 4px    ;    
+	text-indent: 12px;
+	background:url(images/test.jpg) left top no-repeat;
+	_background :     none;/* background ruls for shie6 */
+}
+span {
+	margin : 4px ; 
+	text-indent: 12px;
+	background:url(images/test.jpg) left top no-repeat;
+	_background: none;/* background ruls for shie6 */
+ } 

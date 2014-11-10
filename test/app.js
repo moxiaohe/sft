@@ -1,0 +1,2 @@
+var comoressCss = require('../lib/');
+
