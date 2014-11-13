@@ -1,6 +1,6 @@
 {
   "name": "sft",
-  "version": "0.1.20",
+  "version": "0.0.2",
   "description": "suning front-end tools",
   "main": "index.js",
   "bin": {
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/moxiaohe/sft",
   "dependencies": {
-      "commander": "~2.2.0",
+      "commander": "~2.2.0"
   }
 }
