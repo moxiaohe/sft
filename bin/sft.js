@@ -27,6 +27,13 @@ program
     })
 
 program
+    .command('svnCommit')
+    .description('提交当前目录到SVN服务器')
+    .action(function() {
+       lib.svnCommit()
+    })
+
+program
     .command('*')
     .action(function(env) {
         console.log('无效的参数名："%s"，请输入 fas --help 查看参数介绍 ', env)
