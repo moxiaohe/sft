@@ -1,10 +1,10 @@
 {
   "name": "sft",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "suning front-end tools",
   "main": "index.js",
   "bin": {
-    "sfe": "./bin/sfe.js"
+    "sft": "./bin/sft.js"
   },
   "scripts": {
     "test": "sft"

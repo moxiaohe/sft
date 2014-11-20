@@ -34,9 +34,16 @@ program
     })
 
 program
+    .command('getTaskFile')
+    .description('获取最新的任务脚本')
+    .action(function() {
+       lib.getTaskFile()
+    })
+
+program
     .command('*')
     .action(function(env) {
-        console.log('无效的参数名："%s"，请输入 fas --help 查看参数介绍 ', env)
+        console.log('无效的参数名："%s"，请输入 sft --help 查看参数介绍 ', env)
     })
 
 program.parse(process.argv)
