@@ -1,6 +1,6 @@
 {
   "name": "sft",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "suning front-end tools",
   "main": "index.js",
   "bin": {
